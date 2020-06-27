@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[Verification of EnterTimeTrack Page is Successful]]>
+    </line>
+    <line>
+      <![CDATA[title of the Reports Page is verified]]>
+    </line>
+    <line>
+      <![CDATA[PassCount:-->1]]>
+    </line>
+    <line>
+      <![CDATA[Verification of EnterTimeTrack Page is Successful]]>
+    </line>
+    <line>
+      <![CDATA[title of the Tasks Page is verified]]>
+    </line>
+    <line>
+      <![CDATA[PassCount:-->2]]>
+    </line>
+    <line>
+      <![CDATA[Verification of EnterTimeTrack Page is Successful]]>
+    </line>
+    <line>
+      <![CDATA[title of the Users Page is verified]]>
+    </line>
+    <line>
+      <![CDATA[PassCount:-->3]]>
+    </line>
+    <line>
+      <![CDATA[Verification of EnterTimeTrack Page is Successful]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Task Page is Successful]]>
+    </line>
+    <line>
+      <![CDATA[PassCount:-->4]]>
+    </line>
+    <line>
+      <![CDATA[Verification of EnterTimeTrack Page is Successful]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Task Page is Successful]]>
+    </line>
+    <line>
+      <![CDATA[PassCount:-->5]]>
+    </line>
+    <line>
+      <![CDATA[no. of row count0]]>
+    </line>
+    <line>
+      <![CDATA[eror message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[eror message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[eror message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[PassCount:-->6]]>
+    </line>
+    <line>
+      <![CDATA[Verification of EnterTimeTrack Page is Successful]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Licenses Page is Successful]]>
+    </line>
+    <line>
+      <![CDATA[Verification of IssueDate is successful ]]>
+    </line>
+    <line>
+      <![CDATA[PassCount:-->7]]>
+    </line>
+    <line>
+      <![CDATA[Verification of EnterTimeTrack Page is Successful]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Licenses Page is Successful]]>
+    </line>
+    <line>
+      <![CDATA[Verification  of ProuctEdition is successful ]]>
+    </line>
+    <line>
+      <![CDATA[PassCount:-->8]]>
+    </line>
+    <line>
+      <![CDATA[Verification of EnterTimeTrack Page is Successful]]>
+    </line>
+    <line>
+      <![CDATA[PassCount:-->9]]>
+    </line>
+    <line>
+      <![CDATA[PassCount:--> 9]]>
+    </line>
+    <line>
+      <![CDATA[FailCount:--> 0]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="235628" started-at="2020-06-27T05:04:23Z" finished-at="2020-06-27T05:08:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="235628" started-at="2020-06-27T05:04:23Z" finished-at="2020-06-27T05:08:19Z">
+      <class name="com.TestNgActiTime.script.Test_ValidLoginPage">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.TestNgActiTime.script.Test_ValidLoginPage@c038203]" name="openBrowser" is-config="true" duration-ms="8176" started-at="2020-06-26T22:08:01Z" finished-at="2020-06-26T22:08:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Url()[pri:0, instance:com.TestNgActiTime.script.Test_ValidLoginPage@c038203]" name="Url" is-config="true" duration-ms="667" started-at="2020-06-26T22:08:09Z" finished-at="2020-06-26T22:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Url -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:com.TestNgActiTime.script.Test_ValidLoginPage@c038203]" name="testLoginPage" duration-ms="3870" started-at="2020-06-26T22:08:10Z" finished-at="2020-06-26T22:08:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of EnterTimeTrack Page is Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.TestNgActiTime.script.Test_ValidLoginPage@c038203]" name="closeBrowser" is-config="true" duration-ms="5312" started-at="2020-06-26T22:08:13Z" finished-at="2020-06-26T22:08:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginPage status=SUCCESS method=Test_ValidLoginPage.testLoginPage()[pri:0, instance:com.TestNgActiTime.script.Test_ValidLoginPage@c038203] output=Verification of EnterTimeTrack Page is Successful]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PassCount:-->9]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestNgActiTime.script.Test_ValidLoginPage -->
+      <class name="com.TestNgActiTime.script.Test_Click_ReportsTab">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.TestNgActiTime.script.Test_Click_ReportsTab@4cc0edeb]" name="openBrowser" is-config="true" duration-ms="31662" started-at="2020-06-26T22:04:23Z" finished-at="2020-06-26T22:04:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Url()[pri:0, instance:com.TestNgActiTime.script.Test_Click_ReportsTab@4cc0edeb]" name="Url" is-config="true" duration-ms="584" started-at="2020-06-26T22:04:55Z" finished-at="2020-06-26T22:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Url -->
+        <test-method status="PASS" signature="testClickReportsTab()[pri:0, instance:com.TestNgActiTime.script.Test_Click_ReportsTab@4cc0edeb]" name="testClickReportsTab" duration-ms="17640" started-at="2020-06-26T22:04:55Z" finished-at="2020-06-26T22:05:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of EnterTimeTrack Page is Successful]]>
+            </line>
+            <line>
+              <![CDATA[title of the Reports Page is verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickReportsTab -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.TestNgActiTime.script.Test_Click_ReportsTab@4cc0edeb]" name="closeBrowser" is-config="true" duration-ms="5491" started-at="2020-06-26T22:05:13Z" finished-at="2020-06-26T22:05:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickReportsTab status=SUCCESS method=Test_Click_ReportsTab.testClickReportsTab()[pri:0, instance:com.TestNgActiTime.script.Test_Click_ReportsTab@4cc0edeb] output=Verification of EnterTimeTrack Page is Successful]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PassCount:-->1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="printReport()[pri:0, instance:com.TestNgActiTime.script.Test_Click_ReportsTab@4cc0edeb]" name="printReport" is-config="true" duration-ms="1461" started-at="2020-06-26T22:08:19Z" finished-at="2020-06-26T22:08:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PassCount:--> 9]]>
+            </line>
+            <line>
+              <![CDATA[FailCount:--> 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printReport -->
+      </class> <!-- com.TestNgActiTime.script.Test_Click_ReportsTab -->
+      <class name="com.TestNgActiTime.script.Test_IssueDate">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.TestNgActiTime.script.Test_IssueDate@6767c1fc]" name="openBrowser" is-config="true" duration-ms="11892" started-at="2020-06-26T22:07:17Z" finished-at="2020-06-26T22:07:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Url()[pri:0, instance:com.TestNgActiTime.script.Test_IssueDate@6767c1fc]" name="Url" is-config="true" duration-ms="610" started-at="2020-06-26T22:07:29Z" finished-at="2020-06-26T22:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Url -->
+        <test-method status="PASS" signature="CheckIssueDate()[pri:0, instance:com.TestNgActiTime.script.Test_IssueDate@6767c1fc]" name="CheckIssueDate" duration-ms="6432" started-at="2020-06-26T22:07:30Z" finished-at="2020-06-26T22:07:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of EnterTimeTrack Page is Successful]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Licenses Page is Successful]]>
+            </line>
+            <line>
+              <![CDATA[Verification of IssueDate is successful ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckIssueDate -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.TestNgActiTime.script.Test_IssueDate@6767c1fc]" name="closeBrowser" is-config="true" duration-ms="5684" started-at="2020-06-26T22:07:36Z" finished-at="2020-06-26T22:07:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckIssueDate status=SUCCESS method=Test_IssueDate.CheckIssueDate()[pri:0, instance:com.TestNgActiTime.script.Test_IssueDate@6767c1fc] output=Verification of EnterTimeTrack Page is Successful]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PassCount:-->7]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestNgActiTime.script.Test_IssueDate -->
+      <class name="com.TestNgActiTime.script.Test_Click_TaskTab">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.TestNgActiTime.script.Test_Click_TaskTab@457e2f02]" name="openBrowser" is-config="true" duration-ms="10611" started-at="2020-06-26T22:05:19Z" finished-at="2020-06-26T22:05:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Url()[pri:0, instance:com.TestNgActiTime.script.Test_Click_TaskTab@457e2f02]" name="Url" is-config="true" duration-ms="768" started-at="2020-06-26T22:05:29Z" finished-at="2020-06-26T22:05:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Url -->
+        <test-method status="PASS" signature="testClickTaskTab()[pri:0, instance:com.TestNgActiTime.script.Test_Click_TaskTab@457e2f02]" name="testClickTaskTab" duration-ms="9182" started-at="2020-06-26T22:05:30Z" finished-at="2020-06-26T22:05:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of EnterTimeTrack Page is Successful]]>
+            </line>
+            <line>
+              <![CDATA[title of the Tasks Page is verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickTaskTab -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.TestNgActiTime.script.Test_Click_TaskTab@457e2f02]" name="closeBrowser" is-config="true" duration-ms="5529" started-at="2020-06-26T22:05:39Z" finished-at="2020-06-26T22:05:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickTaskTab status=SUCCESS method=Test_Click_TaskTab.testClickTaskTab()[pri:0, instance:com.TestNgActiTime.script.Test_Click_TaskTab@457e2f02] output=Verification of EnterTimeTrack Page is Successful]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PassCount:-->2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestNgActiTime.script.Test_Click_TaskTab -->
+      <class name="com.TestNgActiTime.script.Test_CreateNewTasks">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.TestNgActiTime.script.Test_CreateNewTasks@724af044]" name="openBrowser" is-config="true" duration-ms="10830" started-at="2020-06-26T22:06:33Z" finished-at="2020-06-26T22:06:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Url()[pri:0, instance:com.TestNgActiTime.script.Test_CreateNewTasks@724af044]" name="Url" is-config="true" duration-ms="837" started-at="2020-06-26T22:06:43Z" finished-at="2020-06-26T22:06:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Url -->
+        <test-method status="PASS" signature="testCreateNewTask()[pri:0, instance:com.TestNgActiTime.script.Test_CreateNewTasks@724af044]" name="testCreateNewTask" duration-ms="7417" started-at="2020-06-26T22:06:44Z" finished-at="2020-06-26T22:06:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of EnterTimeTrack Page is Successful]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Task Page is Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreateNewTask -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.TestNgActiTime.script.Test_CreateNewTasks@724af044]" name="closeBrowser" is-config="true" duration-ms="4359" started-at="2020-06-26T22:06:52Z" finished-at="2020-06-26T22:06:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateNewTask status=SUCCESS method=Test_CreateNewTasks.testCreateNewTask()[pri:0, instance:com.TestNgActiTime.script.Test_CreateNewTasks@724af044] output=Verification of EnterTimeTrack Page is Successful]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PassCount:-->5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestNgActiTime.script.Test_CreateNewTasks -->
+      <class name="com.TestNgActiTime.script.Test_CreateNewCustomer">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.TestNgActiTime.script.Test_CreateNewCustomer@39aeed2f]" name="openBrowser" is-config="true" duration-ms="9134" started-at="2020-06-26T22:06:09Z" finished-at="2020-06-26T22:06:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Url()[pri:0, instance:com.TestNgActiTime.script.Test_CreateNewCustomer@39aeed2f]" name="Url" is-config="true" duration-ms="604" started-at="2020-06-26T22:06:18Z" finished-at="2020-06-26T22:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Url -->
+        <test-method status="PASS" signature="testCreateNewCustomer()[pri:0, instance:com.TestNgActiTime.script.Test_CreateNewCustomer@39aeed2f]" name="testCreateNewCustomer" duration-ms="8353" started-at="2020-06-26T22:06:19Z" finished-at="2020-06-26T22:06:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of EnterTimeTrack Page is Successful]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Task Page is Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreateNewCustomer -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.TestNgActiTime.script.Test_CreateNewCustomer@39aeed2f]" name="closeBrowser" is-config="true" duration-ms="5445" started-at="2020-06-26T22:06:27Z" finished-at="2020-06-26T22:06:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateNewCustomer status=SUCCESS method=Test_CreateNewCustomer.testCreateNewCustomer()[pri:0, instance:com.TestNgActiTime.script.Test_CreateNewCustomer@39aeed2f] output=Verification of EnterTimeTrack Page is Successful]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PassCount:-->4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestNgActiTime.script.Test_CreateNewCustomer -->
+      <class name="com.TestNgActiTime.script.Test_Click_UsersTab">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.TestNgActiTime.script.Test_Click_UsersTab@5c7fa833]" name="openBrowser" is-config="true" duration-ms="10471" started-at="2020-06-26T22:05:45Z" finished-at="2020-06-26T22:05:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Url()[pri:0, instance:com.TestNgActiTime.script.Test_Click_UsersTab@5c7fa833]" name="Url" is-config="true" duration-ms="700" started-at="2020-06-26T22:05:55Z" finished-at="2020-06-26T22:05:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Url -->
+        <test-method status="PASS" signature="testClickUsersTab()[pri:0, instance:com.TestNgActiTime.script.Test_Click_UsersTab@5c7fa833]" name="testClickUsersTab" duration-ms="7328" started-at="2020-06-26T22:05:56Z" finished-at="2020-06-26T22:06:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of EnterTimeTrack Page is Successful]]>
+            </line>
+            <line>
+              <![CDATA[title of the Users Page is verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickUsersTab -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.TestNgActiTime.script.Test_Click_UsersTab@5c7fa833]" name="closeBrowser" is-config="true" duration-ms="5783" started-at="2020-06-26T22:06:03Z" finished-at="2020-06-26T22:06:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickUsersTab status=SUCCESS method=Test_Click_UsersTab.testClickUsersTab()[pri:0, instance:com.TestNgActiTime.script.Test_Click_UsersTab@5c7fa833] output=Verification of EnterTimeTrack Page is Successful]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PassCount:-->3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestNgActiTime.script.Test_Click_UsersTab -->
+      <class name="com.TestNgActiTime.script.Test_ProductEdition">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.TestNgActiTime.script.Test_ProductEdition@29ee9faa]" name="openBrowser" is-config="true" duration-ms="8384" started-at="2020-06-26T22:07:42Z" finished-at="2020-06-26T22:07:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Url()[pri:0, instance:com.TestNgActiTime.script.Test_ProductEdition@29ee9faa]" name="Url" is-config="true" duration-ms="594" started-at="2020-06-26T22:07:50Z" finished-at="2020-06-26T22:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Url -->
+        <test-method status="PASS" signature="CheckProductEdition()[pri:0, instance:com.TestNgActiTime.script.Test_ProductEdition@29ee9faa]" name="CheckProductEdition" duration-ms="5745" started-at="2020-06-26T22:07:51Z" finished-at="2020-06-26T22:07:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of EnterTimeTrack Page is Successful]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Licenses Page is Successful]]>
+            </line>
+            <line>
+              <![CDATA[Verification  of ProuctEdition is successful ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckProductEdition -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.TestNgActiTime.script.Test_ProductEdition@29ee9faa]" name="closeBrowser" is-config="true" duration-ms="4124" started-at="2020-06-26T22:07:57Z" finished-at="2020-06-26T22:08:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckProductEdition status=SUCCESS method=Test_ProductEdition.CheckProductEdition()[pri:0, instance:com.TestNgActiTime.script.Test_ProductEdition@29ee9faa] output=Verification of EnterTimeTrack Page is Successful]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PassCount:-->8]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestNgActiTime.script.Test_ProductEdition -->
+      <class name="com.TestNgActiTime.script.Test_InValidLogin">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.TestNgActiTime.script.Test_InValidLogin@4678c730]" name="openBrowser" is-config="true" duration-ms="11768" started-at="2020-06-26T22:06:56Z" finished-at="2020-06-26T22:07:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Url()[pri:0, instance:com.TestNgActiTime.script.Test_InValidLogin@4678c730]" name="Url" is-config="true" duration-ms="1003" started-at="2020-06-26T22:07:08Z" finished-at="2020-06-26T22:07:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Url -->
+        <test-method status="PASS" signature="test_InValidLogin()[pri:0, instance:com.TestNgActiTime.script.Test_InValidLogin@4678c730]" name="test_InValidLogin" duration-ms="4406" started-at="2020-06-26T22:07:09Z" finished-at="2020-06-26T22:07:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[no. of row count0]]>
+            </line>
+            <line>
+              <![CDATA[eror message is displayed]]>
+            </line>
+            <line>
+              <![CDATA[eror message is displayed]]>
+            </line>
+            <line>
+              <![CDATA[eror message is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_InValidLogin -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.TestNgActiTime.script.Test_InValidLogin@4678c730]" name="closeBrowser" is-config="true" duration-ms="4140" started-at="2020-06-26T22:07:13Z" finished-at="2020-06-26T22:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_InValidLogin status=SUCCESS method=Test_InValidLogin.test_InValidLogin()[pri:0, instance:com.TestNgActiTime.script.Test_InValidLogin@4678c730] output=no. of row count0]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PassCount:-->6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestNgActiTime.script.Test_InValidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

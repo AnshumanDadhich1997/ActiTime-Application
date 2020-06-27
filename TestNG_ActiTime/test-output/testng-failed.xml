@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="sBrowser" value="firefox"/>
+  <test name="Test(failed)">
+    <parameter name="sBrowser" value="firefox"/>
+    <classes>
+      <class name="com.TestNgActiTime.script.Test_ProductEdition">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="Url"/>
+        </methods>
+      </class> <!-- com.TestNgActiTime.script.Test_ProductEdition -->
+      <class name="com.TestNgActiTime.script.Test_CreateNewCustomer">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="Url"/>
+        </methods>
+      </class> <!-- com.TestNgActiTime.script.Test_CreateNewCustomer -->
+      <class name="com.TestNgActiTime.script.Test_InValidLogin">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="Url"/>
+        </methods>
+      </class> <!-- com.TestNgActiTime.script.Test_InValidLogin -->
+      <class name="com.TestNgActiTime.script.Test_IssueDate">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="Url"/>
+        </methods>
+      </class> <!-- com.TestNgActiTime.script.Test_IssueDate -->
+      <class name="com.TestNgActiTime.script.Test_Click_TaskTab">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="Url"/>
+        </methods>
+      </class> <!-- com.TestNgActiTime.script.Test_Click_TaskTab -->
+      <class name="com.TestNgActiTime.script.Test_CreateNewTasks">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="Url"/>
+        </methods>
+      </class> <!-- com.TestNgActiTime.script.Test_CreateNewTasks -->
+      <class name="com.TestNgActiTime.script.Test_ValidLoginPage">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="Url"/>
+        </methods>
+      </class> <!-- com.TestNgActiTime.script.Test_ValidLoginPage -->
+      <class name="com.TestNgActiTime.script.Test_Click_ReportsTab">
+        <methods>
+          <include name="testClickReportsTab"/>
+          <include name="closeBrowser"/>
+          <include name="printReport"/>
+          <include name="openBrowser"/>
+          <include name="Url"/>
+        </methods>
+      </class> <!-- com.TestNgActiTime.script.Test_Click_ReportsTab -->
+      <class name="com.TestNgActiTime.script.Test_Click_UsersTab">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="Url"/>
+        </methods>
+      </class> <!-- com.TestNgActiTime.script.Test_Click_UsersTab -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
